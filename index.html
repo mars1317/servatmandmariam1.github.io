@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Hungarian Algorithm</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/output.js"></script>
+
+	</head>
+	<body>
+		<div id="container" class="container">
+			<h1>Угорський метод</h1>
+			<hr>
+			<div class="row">
+				<div class="col-sm-5">
+					<form id="hungarian-form">
+						<div class="form-group">
+							<label>Введіть матрицю:</label>
+							<textarea id="txtMatrix" class="form-control" rows="5"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Пошук</button>
+					</form>
+				</div>
+		
+			</div>
+			<div id="results-section">
+				<hr>
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Результати:</h2>
+						<div id="results"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
